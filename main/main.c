@@ -52,7 +52,7 @@ void init_rpm_gpio(){
 
 void rpm_task(){
 
-    //ESP_LOGI(TAG, "A obtencao do rpm do motor esta sendo ativado...", TAG); // depuração
+    //ESP_LOGI(TAG, "A obtencao do rpm do motor esta sendo ativado..."); // depuração
 
     while(1){
 
