@@ -73,5 +73,5 @@ void app_main(void){
 
     init_rpm_gpio();
 
-    xTaskCreate(rpm_task, "rpm_task", 2048, NULL, 10, NULL);
+    xTaskCreate(rpm_task, "rpm_reader_task", 4096, NULL, 10, NULL);
 }
